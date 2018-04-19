@@ -12,3 +12,4 @@ def print_price(message):
     bot.reply_to(message, get_price())
 
 bot.polling(timeout=60)
+
