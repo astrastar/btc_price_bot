@@ -5,3 +5,4 @@ def get_price():
     coin = requests.get(req)
     return coin.json()[0].get('price_usd')
 
+
